@@ -2,5 +2,26 @@
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
+  },
+  "files.exclude": {
+    ".github": true,
+    ".husky": true,
+    ".jest": true,
+    ".next": true,
+    ".storybook": true,
+    "node_modules": true,
+    "storybook-static": true,
+    ".babelrc": true,
+    ".editorconfig": true,
+    ".eslintrc.json": true,
+    ".prettierrc": true,
+    "jest.config.js": true,
+    "next-env.d.ts": true,
+    "next.config.js": true,
+    "tsconfig.json": true,
+    "yarn.lock": true,
+    "coverage": true,
+    "src/types": true,
+    ".vscode": true
   }
 }
